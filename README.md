@@ -15,7 +15,7 @@ Purpose: Displays a panel with options for student registration and login.
 - void StudentLoginPage();
 
 Purpose: Handles the student login process and makes decisions based on credential validation.
--void StudentManue();
+- void StudentManue();
 
 Purpose: Provides a menu interface for students with various options.
 - void AdminManue();
@@ -27,9 +27,10 @@ Purpose: Stores the time when a user (student) logs into the system.
 - void StoreEndTime(int idd);
 
 Purpose: Stores the time when a user (student) logs out from the system.
-int idvalidator(int idv);
 
+- int idvalidator(int idv);
 Purpose: Checks if the inserted student ID is registered in the system.
+
 - void StudentLogout(int id, char pass[15]);
 
 Purpose: Handles the process of logging out a student from the system.
